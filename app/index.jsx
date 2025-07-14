@@ -1,10 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 const Home = () => {
     return (
         <View style={styles.container}>
-        <Text>Home</Text>
+            <Text>Home</Text>
+
+            <Link href="/me" style={{ marginTop: 20 }}>
+                <Text>Go to Me</Text>
+            </Link>
         </View>
     )
 }
