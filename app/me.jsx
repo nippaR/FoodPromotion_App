@@ -2,17 +2,19 @@ import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
 import React from 'react';
 
 import IMG from '../assets/lion.png';
+import Spacer from '../components/Spacer';
 
 
 const Me = () => {
     return (
-        <View style={styles.container}>
+        <ThemedView style={styles.container}>
             <Image source={IMG} style={styles.img} />
+            <Spacer width="100%" height={20} />
             <Text style={{ color: '#fff', fontSize: 10, fontFamily: 'poppins' }}>Developed By Under Lion Flag</Text>
             <Text style={styles.txt}>This is a Open Source Application Would you Like developed
                                     this application feel free to
                                     click this link</Text>
-        </View>
+        </ThemedView>
     );
 }
 
