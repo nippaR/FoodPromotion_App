@@ -3,6 +3,7 @@ import React from 'react';
 
 import IMG from '../assets/lion.png';
 import Spacer from '../components/Spacer';
+import ThemedView from '../components/ThemedView';
 
 
 const Me = () => {
